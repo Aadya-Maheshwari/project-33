@@ -9,7 +9,7 @@ class Snowfall{
      
      this.body=Bodies.circle(x,y,r,option);
      this.r=r;
-     this.image=loadImage("snow4.webp");
+     this.image=loadImage("snow1.jpg");
     
      World.add(world,this.body);
 
