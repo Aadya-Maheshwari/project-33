@@ -23,17 +23,17 @@ function setup() {
   world=engine,world;
  
   snowFall=new Snowfall(50,60,30);
-  snowFall.addImage("snow5,webp");
+  snowFall.addImage("snow1.jpg");
   snowFll.scale=0.9;
 
-
+  Engine.update(engine);
 
 
 }
 
 function draw() {
   if(backgroundImg){
-  background(snow1.jpg);  
+  background("snow1.jpg");  
   }
 
   snowFall.display();
@@ -47,5 +47,5 @@ function keyPressed(){
 }
  
 function getBackGroundImg(){
-  backgroundImg=loadImg(snow1.jpg);
+  backgroundImg=loadImg("snow1.jpg");
 }
