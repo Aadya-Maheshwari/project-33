@@ -1,6 +1,6 @@
 const Engine = Matter.Engine;
 const World = Matter.World;
-const Bodies = matter.Bodies;
+const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var engine,world;
@@ -47,5 +47,5 @@ function keyPressed(){
 }
  
 function getBackGroundImg(){
-  backgroundImg=loadImg("snow1.jpg");
+  backgroundImg=loadImage("snow1.jpg");
 }
